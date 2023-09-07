@@ -5,11 +5,13 @@
     <title>Inicio | Gran Sabor</title>
     <!-- Importamos el cdn css de boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Importamos estilos -->
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <div class="container">
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top rounded">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <!-- ICON -->
                 <a class="navbar-brand" href="#">Gran Sabor</a>
@@ -67,6 +69,82 @@
                 </div>
             </div>
           </nav>
+    </div>
+
+    <!-- CARROUSEL -->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img 
+                    src="https://img.freepik.com/foto-gratis/sandwich-jamon-queso-tabla-cortar-madera_188544-20998.jpg?w=826&t=st=1694056766~exp=1694057366~hmac=e454ab17e4864a2ef345b5e0af9fa06ea392c656e3511ed868f3dd9cef7672f2" 
+                    class="d-none d-md-block w-100" 
+                    alt="..."
+                >
+                <img 
+                    src="https://img.freepik.com/foto-gratis/sandwich-queso-parrilla-tocino-tomate_144627-30846.jpg?w=360&t=st=1694057092~exp=1694057692~hmac=60314aef3ebf04922bed80180d0c4dc81fbc476f3636a4acbd97c41516b8f0b4" 
+                    class="d-block d-md-none w-100" 
+                    alt="..."
+                >
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Saborea nuestros deliciosos platos</h1>
+                        <p class="opacity-75">Tenemos una amplia selección de recetas fáciles, saludables y llenas de sabor para que disfrutes en casa.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Explora el menú</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img 
+                    src="https://img.freepik.com/foto-gratis/ensalada-saludable-atun-judias-verdes-tomates-huevos-papas-aceitunas-negras-cerca-recipiente-sobre-mesa_2829-4485.jpg?w=740&t=st=1694056854~exp=1694057454~hmac=52c7fba762240938f8a5e689e2647aae71f16925a3498a80ae4b13b58089e978" 
+                    class="d-none d-md-block w-100" 
+                    alt="..."
+                >
+                <img 
+                    src="https://img.freepik.com/foto-gratis/vista-frontal-deliciosa-ensalada-vegana-ingredientes-frescos-plato_179666-47194.jpg?size=626&ext=jpg&ga=GA1.2.1295227383.1694032406&semt=sph" 
+                    class="d-block d-md-none w-100" 
+                    alt="..."
+                >
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Los mejores productos frescos</h1>
+                        <p>Trabajamos con proveedores locales para llevarte frutas, verduras y carnes frescas cada día.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Conoce más</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img 
+                    src="https://img.freepik.com/foto-gratis/repartidor-chaqueta-amarilla-abriendo-mochila-amarilla-tomando-bolsa-orden_1268-16751.jpg?w=740&t=st=1694056911~exp=1694057511~hmac=cf634e819f1a28da9e9b9086501227ecdb263272c9df6b944875f9fe3649fe27" 
+                    class="d-none d-md-block w-100" 
+                    alt="..."
+                >
+                <img 
+                    src="https://img.freepik.com/foto-gratis/hombre-preparando-comida-llevar-entrega_23-2149025794.jpg?size=626&ext=jpg&ga=GA1.2.1295227383.1694032406&semt=ais" 
+                    class="d-block d-md-none w-100" 
+                    alt="..."
+                >
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Envíos gratis por tiempo limitado</h1>
+                        <p>En pedidos mayores a $3550 el envío va por nuestra cuenta en todo el país.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Compra ahora</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
     </div>
 
     
