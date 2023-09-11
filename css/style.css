@@ -5,9 +5,6 @@ body {
 }
 
 /* Carousel base class */
-.carousel {
-    margin-bottom: 4rem;
-  }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     bottom: 3rem;
@@ -48,8 +45,16 @@ body {
   .featurette-heading {
     letter-spacing: -.05rem;
   }
-  
-  /* rtl:end:remove */
+
+  .select-section-card{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }
+
+  .select-section-card img{
+    width: 50%;
+  }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
