@@ -1,0 +1,48 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-img{
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(40%);
+}
+
+.product-info-container{
+
+}   
+
+.title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.title button{
+    position: absolute;
+    right: 0;
+}
+
+.product-info-container img {
+    width: 400px;
+    height: 400px;
+}
+
+.info {
+    width: 400px
+}
+
+.price{
+    font-size: 38px;
+    font-weight: 400;
+} 
+
+/* .front_page-container img{
+    width: 100%;
+} */
