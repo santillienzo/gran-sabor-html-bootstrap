@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="detailProduct">Detalle</title>
+    <!-- Importamos el cdn css de boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Importamos los estilos de la page -->
+    <link rel="stylesheet" href="css/detailProduct.screen.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <!-- ICON -->
+                <a class="navbar-brand" href="#">Gran Sabor</a>
+                <!-- BOTÓN TOGGLE NAVBAR -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!-- Izquierda -->
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                                <a class="dropdown-item" href="#">Pizzas</a>
+                                <a class="dropdown-item" href="#">Empanadas</a>
+                                <a class="dropdown-item" href="#">Lomos</a>
+                            <a class="dropdown-item" href="#">Bebidas</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Derecha -->
+                    <!-- VISIBLE HASTA MD BREACKPOINT (<MD)-->
+                    <div class="d-md-none">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/">Carrito</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/">Perfil</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- VISIBLE SIEMPRE -->
+                    <form class="form-inline my-2 my-lg-0 d-flex" role="search">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar comida..." aria-label="Search">
+                        <button class="btn btn my-2 my-sm-0" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                    <!-- VISIBLE A PARTIR DE MD BREACKPOINT (>MD)-->
+                    <div class="d-none d-md-flex gap-2">
+                        <a class="nav-item nav-link p-1 mr-10" href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <a class="nav-item nav-link p-1" href="#">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main 
+        class="container d-flex align-items-center justify-content-center"
+    >
+        <img 
+            class="background-img"
+            src="https://img.freepik.com/foto-gratis/sandwich-jamon-queso-tabla-cortar-madera_188544-20998.jpg?w=826&t=st=1694575989~exp=1694576589~hmac=59b0b653c6431e0b247ad51940600f57d31ff3d943991da681c954842d4183aa" 
+        >
+        <section class="product-info-container text-light d-flex align-items-center flex-column">
+            <img 
+                src="https://img.freepik.com/foto-gratis/vista-lateral-doner-tomate-papas-fritas-utensilios-cocina-ayran_176474-3066.jpg?size=626&ext=jpg&ga=GA1.2.1295227383.1694032406&semt=sph" 
+                alt="..."
+            />
+            <div class="info text-center mt-2" >
+                <div class="title">
+                    <h3>Lomo de vacío</h3>
+                    <button type="button" class="btn btn-outline-success">+</button>
+                </div>
+                <p>Condiméntalo con finas hierbas y especias para realzar su sabor. Un corte accesible, de primera calidad, que elevará el nivel de cualquier comida. El lomo de vacío, la estrella de tu próxima parrillada.</p>
+                <p class="price">$3.000</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Importamos el cdn de javascript de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Importamos los íconos -->
+    <script src="https://kit.fontawesome.com/af9ea1f796.js" crossorigin="anonymous"></script>
+</body>
+</html>
