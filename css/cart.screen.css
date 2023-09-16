@@ -1,0 +1,11 @@
+.product-container img{
+    width: 50px;
+}
+
+p{
+    margin: 0;
+}
+
+.total-price{
+    font-size: 26px;
+}
