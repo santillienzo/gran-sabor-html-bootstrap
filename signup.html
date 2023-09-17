@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="detailProduct">Detalle</title>
+    <title>Registrar</title>
     <!-- Importamos el cdn css de boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- Importamos los estilos de la page -->
-    <link rel="stylesheet" href="css/detailProduct.screen.css">
 </head>
 <body>
-    
     <div class="container">
-
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <!-- ICON -->
@@ -48,7 +44,7 @@
                                 <a class="nav-link active" href="/cart.html">Carrito</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="/signup.html">Perfil</a>
+                                <a class="nav-link active" href="/register.html">Perfil</a>
                             </li>
                         </ul>
                     </div>
@@ -64,7 +60,7 @@
                         <a class="nav-item nav-link p-1 mr-10" href="/cart.html">
                             <i class="fas fa-shopping-cart"></i>
                         </a>
-                        <a class="nav-item nav-link p-1" href="/signup.html">
+                        <a class="nav-item nav-link p-1" href="/register.html">
                             <i class="fas fa-user"></i>
                         </a>
                     </div>
@@ -72,29 +68,34 @@
             </div>
         </nav>
     </div>
+    <div style="height: 56px;"></div> 
 
-    <main 
-        class="container d-flex align-items-center justify-content-center"
-    >
-        <img 
-            class="background-img"
-            src="https://img.freepik.com/foto-gratis/sandwich-jamon-queso-tabla-cortar-madera_188544-20998.jpg?w=826&t=st=1694575989~exp=1694576589~hmac=59b0b653c6431e0b247ad51940600f57d31ff3d943991da681c954842d4183aa" 
-        >
-        <section class="product-info-container text-light d-flex align-items-center flex-column">
-            <img 
-                src="https://img.freepik.com/foto-gratis/vista-lateral-doner-tomate-papas-fritas-utensilios-cocina-ayran_176474-3066.jpg?size=626&ext=jpg&ga=GA1.2.1295227383.1694032406&semt=sph" 
-                alt="..."
-            />
-            <div class="info text-center mt-2" >
-                <div class="title">
-                    <h3>Lomo de vacío</h3>
-                    <button type="button" class="btn btn-outline-success">+</button>
-                </div>
-                <p>Condiméntalo con finas hierbas y especias para realzar su sabor. Un corte accesible, de primera calidad, que elevará el nivel de cualquier comida. El lomo de vacío, la estrella de tu próxima parrillada.</p>
-                <p class="price">$3.000</p>
-            </div>
-        </section>
-    </main>
+    <main class="form-signin w-50 m-auto d-flex align-items-center justify-content-center" style="height: calc(100vh - 56px);">
+        <form class="w-100">
+          <h1 class="h3 mb-3 fw-normal">Registrarse</h1>
+          <div class="d-flex flex-column gap-1">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="user" placeholder="name@example.com">
+                <label for="user">Nombre de usuario</label>
+              </div>
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="password">Contraseña</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="_password" placeholder="Password">
+                <label for="_password">Repetir contraseña</label>
+              </div>
+              <p class="my-2">Ya tienes una cuenta? <a href="/signin.html">Iniciar sesión</a></p>
+              <button class="btn btn-primary w-100 py-2" type="submit">Registrarse</button>
+          </div>
+        </form>
+      </main>
+
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
