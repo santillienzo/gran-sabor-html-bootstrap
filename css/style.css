@@ -50,10 +50,16 @@ body {
     width: 200px;
     height: 200px;
     cursor: pointer;
+    color: #444;
+    text-decoration: none;
   }
 
   .select-section-card img{
     width: 50%;
+  }
+
+  .select-section-card span{
+
   }
   
   /* RESPONSIVE CSS
