@@ -1,0 +1,314 @@
+[
+    {
+      "image": "https://img.freepik.com/foto-gratis/pizza-pepperoni-vista-superior-bandeja_23-2148765306.jpg?w=740&t=st=1695610717~exp=1695611317~hmac=cd2fee86972988d2754ad58c3aef3187895d170d996c3814bad8d18e4f31d52c",
+      "description": "Deliciosa pizza de pepperoni",
+      "type": "pizza",
+      "name": "Pizza de Pepperoni",
+      "price": "250",
+      "id": "1"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/sandwiches-club-salami-tocino-blinchik-servidos-yogurt-plato-madera-te_114579-60.jpg?w=740&t=st=1695610792~exp=1695611392~hmac=741280db867da8e8d6aed71b722afaff243b1829a7d89c73f8a155f4281fb94b",
+      "description": "Sabroso sandwich de jamón y queso",
+      "type": "sandwich",
+      "name": "Sandwich de Jamón y Queso",
+      "price": "150",
+      "id": "2"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/close-up-limonada-fresca_23-2148482454.jpg?w=740&t=st=1695610834~exp=1695611434~hmac=083b4f52d7d88814af80e141ae1b17cb645a6087cba79e06b572f4ff23b85196",
+      "description": "Refrescante bebida de limón",
+      "type": "bebida",
+      "name": "Bebida de Limón",
+      "price": "75",
+      "id": "3"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/ensalada-verduras-hierbas-carne_140725-6378.jpg?w=740&t=st=1695610891~exp=1695611491~hmac=74c992e434365becfe98ffbbfbe1ac4103895a16d5846d3006125213268b4e60",
+      "description": "Ensalada fresca con pollo a la parrilla",
+      "type": "ensalada",
+      "name": "Ensalada de Pollo a la Parrilla",
+      "price": "200",
+      "id": "4"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/vista-lateral-pizza-pimiento-picado-utensilios-cocina_176474-3183.jpg?size=626&ext=jpg&ga=GA1.2.1295227383.1694032406&semt=ais",
+      "description": "Exquisita pizza de champiñones",
+      "type": "pizza",
+      "name": "Pizza de Champiñones",
+      "price": "240",
+      "id": "5"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/vista-lateral-doner-papas-fritas-ayran-utensilios-cocina_176474-3065.jpg?w=740&t=st=1695610971~exp=1695611571~hmac=c8b9dcc01ec912bb49e75afda4edcbae9ad75f184d157e9fe4fe48f3594e4fad",
+      "description": "Delicioso sandwich de pollo",
+      "type": "sandwich",
+      "name": "Sandwich de Pollo",
+      "price": "180",
+      "id": "6"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/bebida-naranja-fresca_144627-21390.jpg?w=740&t=st=1695611073~exp=1695611673~hmac=723d1856ad38f6d61c2c0ab6d7490cb7a68d00201a5928b7fcc1f9e1ffe39db3",
+      "description": "Refrescante bebida de naranja",
+      "type": "bebida",
+      "name": "Bebida de Naranja",
+      "price": "80",
+      "id": "7"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/ensalada-griega-sobre-mesa_140725-4741.jpg?w=740&t=st=1695611100~exp=1695611700~hmac=40fff306316a05c1110bcd5bbe9e6f0ecff678b08154ef701f6ef282533139c0",
+      "description": "Ensalada fresca con tomate y mozzarella",
+      "type": "ensalada",
+      "name": "Ensalada Caprese",
+      "price": "190",
+      "id": "8"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/vista-lateral-pizza-cerrada-trapo-cuadros-tablero-redondo_176474-3046.jpg?w=740&t=st=1695611150~exp=1695611750~hmac=fd4a47b78e56ad0b30f27c90b81173b9bf9eb14c6628fd5e29bedd9d5a7203a7",
+      "description": "Deliciosa pizza de margarita",
+      "type": "pizza",
+      "name": "Pizza Margarita",
+      "price": "230",
+      "id": "9"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/sandwiches-primer-plano-verduras_23-2148454802.jpg?w=740&t=st=1695611343~exp=1695611943~hmac=2d37a484c063727392d1e912d624cceb69879975fc7b836506bb431b4cd51fe5",
+      "description": "Sabroso sandwich de jamón, queso y tomate",
+      "type": "sandwich",
+      "name": "Sandwich de Jamón, Queso y Tomate",
+      "price": "160",
+      "id": "10"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/arroz-que-vierte-comida-deliciosa-ensalada-placa-palillos-vista-lateral-fondo-madera-negro-espacio-texto_176474-3811.jpg?w=740&t=st=1695611710~exp=1695612310~hmac=3511dfac7e72de08049e6110a466a0af9dcabcb9d9eda5acc247a4038427c686",
+      "description": "Ensalada fresca con pollo y aguacate",
+      "type": "ensalada",
+      "name": "Ensalada de Pollo y Aguacate",
+      "price": "210",
+      "id": "12"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/vista-superior-pizza-soporte-madera-mantel_176474-2554.jpg?w=740&t=st=1695611757~exp=1695612357~hmac=3a4c9d3d35e9c1edb45becc9e701a2c5ce23f9f01ff227ffe9e4c6370b49827a",
+      "description": "Deliciosa pizza de cuatro quesos",
+      "type": "pizza",
+      "name": "Pizza Cuatro Quesos",
+      "price": "260",
+      "id": "13"
+    },
+    {
+      "image": "https://img.freepik.com/foto-gratis/dos-rebanadas-hamburguesa-pollo_140725-5702.jpg?w=740&t=st=1695611892~exp=1695612492~hmac=23de4c9a221c51ed78ffdee17aa62aaf95bfeb07caf894ba8aaeee9001efc5d7",
+      "description": "Sabroso sandwich de pollo y queso",
+      "type": "sandwich",
+      "name": "Sandwich de Pollo y Queso",
+      "price": "170",
+      "id": "14"
+    },
+    {
+      "image": "https://www.example.com/image15.jpg",
+      "description": "Refrescante bebida de piña",
+      "type": "bebida",
+      "name": "Bebida de Piña",
+      "price": "90",
+      "id": "15"
+    },
+    {
+      "image": "https://www.example.com/image16.jpg",
+      "description": "Ensalada fresca con espinacas y fresas",
+      "type": "ensalada",
+      "name": "Ensalada de Espinacas y Fresas",
+      "price": "220",
+      "id": "16"
+    },
+    {
+      "image": "https://www.example.com/image17.jpg",
+      "description": "Deliciosa pizza de hawaiana",
+      "type": "pizza",
+      "name": "Pizza Hawaiana",
+      "price": "270",
+      "id": "17"
+    },
+    {
+      "image": "https://www.example.com/image18.jpg",
+      "description": "Sabroso sandwich de pavo y queso",
+      "type": "sandwich",
+      "name": "Sandwich de Pavo y Queso",
+      "price": "190",
+      "id": "18"
+    },
+    {
+      "image": "https://www.example.com/image19.jpg",
+      "description": "Refrescante bebida de mango",
+      "type": "bebida",
+      "name": "Bebida de Mango",
+      "price": "95",
+      "id": "19"
+    },
+    {
+      "image": "https://www.example.com/image20.jpg",
+      "description": "Ensalada fresca con aguacate y tomate",
+      "type": "ensalada",
+      "name": "Ensalada de Aguacate y Tomate",
+      "price": "200",
+      "id": "20"
+    },
+    {
+      "image": "https://www.example.com/image21.jpg",
+      "description": "Deliciosa pizza de vegetales",
+      "type": "pizza",
+      "name": "Pizza de Vegetales",
+      "price": "280",
+      "id": "21"
+    },
+    {
+      "image": "https://www.example.com/image22.jpg",
+      "description": "Sabroso sandwich de atún y huevo",
+      "type": "sandwich",
+      "name": "Sandwich de Atún y Huevo",
+      "price": "200",
+      "id": "22"
+    },
+    {
+      "image": "https://www.example.com/image23.jpg",
+      "description": "Refrescante bebida de melón",
+      "type": "bebida",
+      "name": "Bebida de Melón",
+      "price": "100",
+      "id": "23"
+    },
+    {
+      "image": "https://www.example.com/image24.jpg",
+      "description": "Ensalada fresca con queso de cabra y nueces",
+      "type": "ensalada",
+      "name": "Ensalada de Queso de Cabra y Nueces",
+      "price": "230",
+      "id": "24"
+    },
+    {
+      "image": "https://www.example.com/image25.jpg",
+      "description": "Deliciosa pizza de jamón y champiñones",
+      "type": "pizza",
+      "name": "Pizza de Jamón y Champiñones",
+      "price": "290",
+      "id": "25"
+    },
+    {
+      "image": "https://www.example.com/image26.jpg",
+      "description": "Sabroso sandwich de salmón y pepino",
+      "type": "sandwich",
+      "name": "Sandwich de Salmón y Pepino",
+      "price": "210",
+      "id": "26"
+    },
+    {
+      "image": "https://www.example.com/image27.jpg",
+      "description": "Refrescante bebida de sandía",
+      "type": "bebida",
+      "name": "Bebida de Sandía",
+      "price": "105",
+      "id": "27"
+    },
+    {
+      "image": "https://www.example.com/image28.jpg",
+      "description": "Ensalada fresca con pollo y mango",
+      "type": "ensalada",
+      "name": "Ensalada de Pollo y Mango",
+      "price": "240",
+      "id": "28"
+    },
+    {
+      "image": "https://www.example.com/image29.jpg",
+      "description": "Deliciosa pizza de calabresa",
+      "type": "pizza",
+      "name": "Pizza de Calabresa",
+      "price": "300",
+      "id": "29"
+    },
+    {
+      "image": "https://www.example.com/image30.jpg",
+      "description": "Sabroso sandwich de roast beef y cebolla caramelizada",
+      "type": "sandwich",
+      "name": "Sandwich de Roast Beef y Cebolla Caramelizada",
+      "price": "220",
+      "id": "30"
+    },
+    {
+      "image": "https://www.example.com/image31.jpg",
+      "description": "Refrescante bebida de frutilla",
+      "type": "bebida",
+      "name": "Bebida de Frutilla",
+      "price": "110",
+      "id": "31"
+    },
+    {
+      "image": "https://www.example.com/image32.jpg",
+      "description": "Ensalada fresca con aguacate y queso feta",
+      "type": "ensalada",
+      "name": "Ensalada de Aguacate y Queso Feta",
+      "price": "250",
+      "id": "32"
+    },
+    {
+      "image": "https://www.example.com/image33.jpg",
+      "description": "Deliciosa pizza de pollo y champiñones",
+      "type": "pizza",
+      "name": "Pizza de Pollo y Champiñones",
+      "price": "310",
+      "id": "33"
+    },
+    {
+      "image": "https://www.example.com/image34.jpg",
+      "description": "Sabroso sandwich de salchichón y queso",
+      "type": "sandwich",
+      "name": "Sandwich de Salchichón y Queso",
+      "price": "230",
+      "id": "34"
+    },
+    {
+      "image": "https://www.example.com/image35.jpg",
+      "description": "Refrescante bebida de coco",
+      "type": "bebida",
+      "name": "Bebida de Coco",
+      "price": "115",
+      "id": "35"
+    },
+    {
+      "image": "https://www.example.com/image36.jpg",
+      "description": "Ensalada fresca con camarones y palta",
+      "type": "ensalada",
+      "name": "Ensalada de Camarones y Palta",
+      "price": "260",
+      "id": "36"
+    },
+    {
+      "image": "https://www.example.com/image37.jpg",
+      "description": "Deliciosa pizza de jamón y huevo",
+      "type": "pizza",
+      "name": "Pizza de Jamón y Huevo",
+      "price": "320",
+      "id": "37"
+    },
+    {
+      "image": "https://www.example.com/image38.jpg",
+      "description": "Sabroso sandwich de pollo y champiñones",
+      "type": "sandwich",
+      "name": "Sandwich de Pollo y Champiñones",
+      "price": "240",
+      "id": "38"
+    },
+    {
+      "image": "https://www.example.com/image39.jpg",
+      "description": "Refrescante bebida de uva",
+      "type": "bebida",
+      "name": "Bebida de Uva",
+      "price": "120",
+      "id": "39"
+    },
+    {
+      "image": "https://www.example.com/image40.jpg",
+      "description": "Ensalada fresca con queso azul y nueces",
+      "type": "ensalada",
+      "name": "Ensalada de Queso Azul y Nueces",
+      "price": "270",
+      "id": "40"
+    }
+  ]
