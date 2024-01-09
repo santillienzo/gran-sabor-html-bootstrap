@@ -7,4 +7,3 @@
 ## Ejecución
 1) Instalar la extensión *Live Server* de Visual Studio Code (https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 2) Abrir el proyecto con Visual Studio y ejecutarlo con Live Server, hacer click en la parte inferior derecha donde esta el botón con la leyenda "Go Live"
-3) 
